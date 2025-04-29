@@ -106,7 +106,7 @@ def algebraic_immunity_1(f):
     return r
 
 
-# Порядок алгебраической иммуности (Вариант через решение слу в gf(2))
+# Порядок алгебраической иммунности (Вариант через решение СЛУ в GF(2))
 def algebraic_immunity_2(f):
     n = int(np.log2(len(f)))
     monoms = {0: '1'}
