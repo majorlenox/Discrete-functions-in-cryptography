@@ -16,8 +16,9 @@ A repository dedicated to the course discrete functions in cryptography. It impl
 1. **correlative_immunity_K2** — Evaluates the order of correlation immunity.  
 2. **cross_correlation**, **cross_correlation_def** — Compute cross-correlation between functions.  
 3. **cross_correlation_k** — Finds the order of uncorrelatedness.  
-4. **wht**, **inv_wht** — Walsh-Hadamard Transform (WHT) and inverse WHT.  
-
+4. **wht**, **inv_wht** — Walsh-Hadamard Transform (WHT) and inverse WHT.
+5. **nonlinearity** — Calculates the nonlinearity of a Boolean function
+   
 ---
 
 #### **Linear and Differential Cryptanalysis**:
