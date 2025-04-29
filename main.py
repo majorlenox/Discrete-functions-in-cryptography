@@ -1,0 +1,22 @@
+import tests
+
+if __name__ == '__main__':
+    # tests.hamming_weight_test1()
+    # tests.hamming_weight_test2()
+    # tests.tensor_test()
+    # tests.format_test()
+    # tests.mat_mul_test()
+    # tests.wht_test()
+    # tests.cross_correlation_test()
+    # tests.cross_correlation_k_test()
+    # tests.correlative_immunity_test()
+    # tests.statement_3K()
+    # tests.m_balanced_test()
+    # tests.kr_3()
+    # tests.format_test()
+    # tests.BDZ()
+    # tests.deg_test()
+    # tests.perebor()
+    # tests.ann_test()
+    # tests.algebraic_immunity_test()
+    tests.DDT_and_LAT_test()
