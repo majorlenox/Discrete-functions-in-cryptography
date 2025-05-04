@@ -83,7 +83,7 @@ def sub_a(x, a, n=None):
         if e == '1':
             res = res ^ 1
         else:
-            if type(e) is list:
+            if type(e) is list: # mode for anfs [[x_1, x_2], [x_3]]
                 f = True
                 for el in e:
                     if mp[el] != 1:
@@ -92,8 +92,10 @@ def sub_a(x, a, n=None):
                 if f:
                     res = res ^ 1
             else:
-                if mp[e] == 1:
-                    res = res ^ 1
+                res = 1
+                if mp[e] != 1: # mode for monoms x_1*x_2*x_3
+                    res = 0
+                    break
     return res
 
 
