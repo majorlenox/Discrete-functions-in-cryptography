@@ -161,6 +161,17 @@ def algebraic_immunity_2(f):
         if solution[i] == 1:
             result_ann.append(monoms[i])
     return r, result_ann
+#    Если позволяет размерность можно найти аннулятор состоящий из наименьшего числа мономов
+#    if solution is not None:
+#                r = d
+#                solutions = [solution]
+#                for solution in solution_gen:
+#                    if hamming_weight(solution) != 0:
+#                        solutions.append(solution)
+#                solutions.sort(key=lambda x: (hamming_weight(x), x[0]!=1))
+#                break
+#    solution = solutions[0]
+    
 
 
 # DDT (Differential Distribution Table)
